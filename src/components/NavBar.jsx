@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Link} from 'react-router-dom' 
 import logo from '../assets/logo.png';
 import ReorderIcon from '@mui/icons-material/Reorder';
-import '../styles/navbar.css'
+import '../styles/Navbar.css'
 
 export default function NavBar() {
   const [openLinks, setOpenLisks] = useState(false);
